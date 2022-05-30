@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import BgCanvas from './components/BgCanvas.vue'
-import NavBar from './components/NavBar.vue';
+useHead({
+  meta: [{ property: 'og:title', content: 'Nebula Jing' }]
+})
 </script>
 
 <template>
-  <div>
-    <NavBar />
-    <BgCanvas />
-  </div>
+  <NavBar />
+  <main class="px-7 py-10">
+    <router-view />
+  </main>
 </template>
