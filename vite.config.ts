@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import type { UserConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
-import UnoCss from 'unocss/vite'
+import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
 import Pages from 'vite-plugin-pages'
 import Markdown from 'vite-plugin-md'
@@ -48,7 +48,7 @@ const config: UserConfig = {
     ]
   },
   plugins: [
-    UnoCss({
+    UnoCSS({
       theme: {
         fontFamily: {
           sans: '"Inter", Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji'
