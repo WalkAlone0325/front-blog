@@ -9,7 +9,6 @@ declare module '@vue/runtime-core' {
     ListPosts: typeof import('./src/components/ListPosts.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
     Plum: typeof import('./src/components/Plum.vue')['default']
-    Plum2: typeof import('./src/components/Plum2.vue')['default']
     Post: typeof import('./src/components/Post.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
